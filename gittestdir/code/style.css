@@ -14,3 +14,8 @@ img{
     display: block;
     margin: auto;
 }
+p{
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+}
