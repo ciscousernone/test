@@ -19,3 +19,11 @@ p{
     color: blueviolet;
     font-size: larger;
 }
+table,td,tr,th{
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+}
+tr{
+    height: 100px;
+}
