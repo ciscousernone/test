@@ -28,13 +28,49 @@ tr{
     height: 100px;
 }
 #img1 {
-    offset-path: path('M 80 200');
+    
     animation: Spin 1ms infinite;
+}
+.img2 {
+width: 170px;
+height: 130px;
+animation: Clearness 100s infinite;
+}
+.test {
+    color: black;
+    animation: RedFont 10s infinite;
 }
 @keyframes Spin {
     100% {
-        offset-distance: 100%;
-        offset-rotate: 10000deg auto;
-        
+        rotate: 360deg;
+
     }
+}
+
+@keyframes RedFont {
+    0% {
+        font-size: large;
+        color: black;
+    }
+    25%{
+        font-size: larger;
+        color: green;
+    }
+    50% {
+        font-size: x-large;
+        color: red;
+    }
+    75% {
+        font-size: larger;
+        color: green;
+    }
+    100% {
+        font-size: large;
+        color: black;
+    }
+}
+@keyframes Clearness {
+
+    50% {opacity: 0;}
+
 }
