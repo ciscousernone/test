@@ -19,3 +19,21 @@ p{
     color: blueviolet;
     font-size: larger;
 }
+table,td,tr,th{
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+}
+tr{
+    height: 100px;
+}
+#img1 {
+    offset-path: path('M 80 200');
+    animation: Spin 1ms infinite;
+}
+@keyframes Spin {
+    100% {
+        offset-distance: 100%;
+        offset-rotate: auto 360deg;
+    }
+}
