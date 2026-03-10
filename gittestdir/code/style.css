@@ -34,6 +34,7 @@ tr{
 @keyframes Spin {
     100% {
         offset-distance: 100%;
-        offset-rotate: auto 360deg;
+        offset-rotate: 10000deg auto;
+        
     }
 }
